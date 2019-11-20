@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package FactoryMethod;
 
 import org.junit.jupiter.api.AfterEach;
@@ -12,10 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author kubas
- */
+
 public class EqqTest {
     
     public EqqTest() {
@@ -42,7 +34,6 @@ public class EqqTest {
         System.out.println("make");
         Eqq instance = new Eqq();
         instance.make();
-        fail("The test case is a prototype.");
     }
     
 }

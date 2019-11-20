@@ -42,7 +42,6 @@ public class HamTest {
         System.out.println("make");
         Ham instance = new Ham();
         instance.make();
-        fail("The test case is a prototype.");
     }
     
 }

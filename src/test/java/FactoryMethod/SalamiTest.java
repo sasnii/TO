@@ -42,7 +42,6 @@ public class SalamiTest {
         System.out.println("make");
         Salami instance = new Salami();
         instance.make();
-        fail("The test case is a prototype.");
     }
     
 }

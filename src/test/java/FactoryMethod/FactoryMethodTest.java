@@ -42,7 +42,6 @@ public class FactoryMethodTest {
         System.out.println("main");
         String[] args = null;
         FactoryMethod.main(args);
-        fail("The test case is a prototype.");
     }
     
 }

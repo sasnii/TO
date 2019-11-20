@@ -45,7 +45,6 @@ public class SandwichFactoryTest {
         Sandwich expResult = null;
         Sandwich result = instance.getSandwich(sandwichType);
         assertEquals(expResult, result);
-        fail("The test case is a prototype.");
     }
     
 }
