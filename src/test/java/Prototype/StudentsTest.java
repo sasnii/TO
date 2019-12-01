@@ -2,7 +2,7 @@ package Prototype;
 
 import java.util.List;
 
-public class EmployeeTest {
+public class StudentsTest {
     
    	public static void main(String[] args) throws CloneNotSupportedException {
 		Students study = new Students();
@@ -15,9 +15,9 @@ public class EmployeeTest {
 		List<String> list1 = std12.getstudentsList();
 		list1.remove("Jakub");
 		
-		System.out.println("emps List: "+study.getstudentsList());
-		System.out.println("empsNew List: "+list);
-		System.out.println("empsNew1 List: "+list1);
+		System.out.println("List: "+study.getstudentsList());
+		System.out.println("std1 List: "+list);
+		System.out.println("std12 List: "+list1);
 	}
     
 }

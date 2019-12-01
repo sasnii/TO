@@ -5,34 +5,32 @@ import java.util.List;
 
 public class Students implements Cloneable{
 
-	private List<String> empList;
+	private List<String> studentsList;
 	
 	public Students(){
-		empList = new ArrayList<String>();
+		studentsList = new ArrayList<String>();
 	}
 	
 	public Students(List<String> list){
-		this.empList=list;
+		this.studentsList=list;
 	}
+    
 	public void loadData(){
-		empList.add("Pankaj");
-		empList.add("Raj");
-		empList.add("David");
-		empList.add("Lisa");
+		studentsList.add("Jakub");
+		studentsList.add("Adrian");
+		studentsList.add("Maciej");
 	}
 	
-	public List<String> getEmpList() {
-		return empList;
+	public List<String> getstudentsList() {
+		return studentsList;
 	}
 
 	@Override
 	public Object clone() throws CloneNotSupportedException{
 			List<String> temp = new ArrayList<String>();
-			for(String s : this.getEmpList()){
-				temp.add(s);
-                             
+			for(String s : this.getstudentsList()){
+				temp.add(s);     
 			}
 			return new Students(temp);
 	}
-	
 }
