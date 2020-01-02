@@ -1,0 +1,7 @@
+Facade\SandwichMaker.class
+com\mycompany\oop\singleton\Singleton.class
+com\mycompany\oop\builder\Builder.class
+Facade\PremiumSandwich.class
+Facade\FacadePattern.class
+Facade\RegularSandwich.class
+Facade\Sandwich.class
