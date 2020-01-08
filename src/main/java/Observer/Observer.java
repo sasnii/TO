@@ -3,8 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.oop.builder;
+package Observer;
 
-public class Builder {
-    
+/**
+ *
+ * @author kubas
+ */
+public interface Observer {
+    public void update(String availability);
 }
