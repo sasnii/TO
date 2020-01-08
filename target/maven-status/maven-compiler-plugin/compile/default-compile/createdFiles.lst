@@ -1,0 +1,5 @@
+Observer\Person.class
+Observer\Sandwich.class
+Observer\Observer.class
+Observer\Interface.class
+Observer\ObserverPattern.class
